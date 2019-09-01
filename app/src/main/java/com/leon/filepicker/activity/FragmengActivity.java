@@ -2,15 +2,12 @@ package com.leon.filepicker.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.leon.filepicker.R;
-
-import java.util.List;
 
 public class FragmengActivity extends AppCompatActivity {
     RelativeLayout mRootLayout;

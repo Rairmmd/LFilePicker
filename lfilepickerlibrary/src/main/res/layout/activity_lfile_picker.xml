@@ -8,7 +8,7 @@
     android:background="@color/white"
     tools:context=".ui.LFilePickerActivity">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
@@ -16,7 +16,7 @@
         android:background="@color/defaultColor"
         app:titleTextColor="@color/white"
         app:title="txt">
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
         android:id="@+id/layout_path"
